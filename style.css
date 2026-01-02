@@ -33,11 +33,7 @@ a {
   align-items: center;
   padding: 0 8vw;
 }
-
-.hero-inner {
   max-width: 900px;
-  animation: fadeUp 0.9s ease-out both;
-}
 
 .eyebrow {
   text-transform: uppercase;
@@ -65,7 +61,7 @@ a {
 
 .cta a {
   margin-right: 24px;
-  position: relative;
+  position: relative;F
   padding-bottom: 4px;
 }
 
@@ -85,10 +81,7 @@ a {
 }
 
 /* SECTIONS */
-.section {
   padding: 120px 8vw;
-  animation: fadeUp 0.8s ease-out both;
-}
 
 .section h2 {
   font-family: 'Playfair Display', serif;
@@ -165,17 +158,6 @@ footer {
 }
 
 /* MOTION */
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 /* AMBIENT GRAIN (SUBTLE) */
 body::before {
   content: '';
@@ -186,7 +168,7 @@ body::before {
   pointer-events: none;
 }
 
-/* SCROLL REVEAL STATES */
+/* SCROLL REVEAL SYSTEM */
 .section,
 .card {
   opacity: 0;
